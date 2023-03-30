@@ -1,0 +1,28 @@
+<h1>Cadastre a reserva:</h1>
+
+<form class="form" action="/reservas/updatereserva" method="POST">
+
+  <input type="hidden" name="id" value="{{reserva.id}}">
+
+  <div class="form-control">
+    <label for="idcliente">Id do cliente:</label>
+    <input type="text" name="idcliente" placeholder="Identificação do cliente" value="{{reserva.idcliente}}">
+  </div>
+
+  <div class="form-control">
+    <label for="idveiculo">Id do veículo:</label>
+    <input type="text" name="idveiculo" placeholder="Identificação do veículo" value="{{reserva.idveiculo}}">
+  </div>
+
+  <div class="form-control">
+    <label for="datainicio">Data inicial:</label>
+    <input type="date" name="datainicio" placeholder="Data inicial da retirada do veículo" value="{{reserva.datainicio}}">
+  </div>
+
+  <div class="form-control">
+    <label for="datafim">Data final:</label>
+    <input type="date" name="datafim" placeholder="Data final da entrega do veículo" value="{{reserva.datafim}}">
+  </div>
+
+  <input type="submit" value="Editar">
+</form>

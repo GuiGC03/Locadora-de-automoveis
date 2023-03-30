@@ -1,0 +1,7 @@
+<h1>Lista de clientes:</h1>
+<div class="clientes-container">
+  {{#each clientes}}
+    <div>#{{this.id}} - <span class="bold"><a href="/clientes/{{this.id}}">{{this.nome}}</a></span> - {{this.endereco}} - {{this.telefone}} - {{this.email}} </div>
+  {{/each}}
+</div>
+

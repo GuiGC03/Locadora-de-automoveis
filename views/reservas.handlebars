@@ -1,0 +1,7 @@
+<h1>Lista de reservas:</h1>
+<div class="reservas-container">
+  {{#each reservas}}
+    <div> <span class="bold">Reserva: <a href="/reservas/{{this.id}}">#{{this.id}}</a></span> | <span class="bold">ID Cliente:</span>  {{this.idcliente}} | <span class="bold">ID Cliente:</span> {{this.idveiculo}} |   <span class="bold">Data inicial:</span> {{this.datainicio}} | <span class="bold">Data final:</span> {{this.datafim}} </div>
+  {{/each}}
+</div>
+

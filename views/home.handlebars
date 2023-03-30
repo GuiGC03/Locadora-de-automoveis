@@ -1,0 +1,92 @@
+  {{!-- *-{Clientes}-* --}}
+
+ <h1>Cadastre o cliente:</h1>
+ <form class="form" action="/clientes/insertcliente" method="POST">
+
+  <div class="form-control">
+    <label for="nome">Nome do cliente:</label>
+    <input type="text" name="nome" placeholder="Nome completo do cliente">
+  </div>
+
+  <div class="form-control">
+    <label for="endereco">Endereço:</label>
+    <input type="text" name="endereco" placeholder="Endereço completo do cliente">
+  </div>
+
+  <div class="form-control">
+    <label for="telefone">Número do telefone:</label>
+    <input type="text" name="telefone" placeholder="Telefone ou celular">
+  </div>
+
+  <div class="form-control">
+    <label for="email">Email:</label>
+    <input type="text" name="email" placeholder="Email de cadastro">
+  </div>
+  <input type="submit" value="Cadastrar">
+  </form>
+
+ {{!-- *-{Clientes}-* --}}
+
+ {{!-- *-{Veículos}-* --}}
+
+ <h1>Cadastre o veículo:</h1>
+ <form class="form" action="/veiculos/insertveiculo" method="POST">
+  <div class="form-control">
+    <label for="marca">Marca:</label>
+    <input type="text" name="marca" placeholder="Nome completo do veículo">
+  </div>
+
+  <div class="form-control">
+    <label for="modelo">Modelo:</label>
+    <input type="text" name="modelo" placeholder="Modelo do veículo">
+  </div>
+
+  <div class="form-control">
+    <label for="ano">Ano:</label>
+    <input type="text" name="ano" placeholder="Ano do veículo">
+  </div>
+
+  <div class="form-control">
+    <label for="placa">Placa:</label>
+    <input type="text" name="placa" placeholder="Placa do veículo">
+  </div>
+
+    <div class="form-control">
+    <label for="disponibilidade">Disponibilidade:</label>
+    <input type="text" name="disponibilidade" placeholder="Disponibilidade do veículo">
+  </div>
+  <input type="submit" value="Cadastrar">
+  </form>
+
+  {{!-- *-{Veículos}-* --}}
+
+  {{!-- *-{Reservas}-* --}}
+  
+  <h1>Cadastre a reserva:</h1>
+
+ <form class="form" action="/reservas/insertreserva" method="POST">
+  <div class="form-control">
+    <label for="id_cliente">Id do cliente:</label>
+    <input type="text" name="id_cliente" placeholder="Identificação do cliente">
+  </div>
+
+  <div class="form-control">
+    <label for="id_veiculo">Id do veículo:</label>
+    <input type="text" name="id_veiculo" placeholder="Identificação do veículo">
+  </div>
+
+  <div class="form-control">
+    <label for="data_inicio">Data inicial:</label>
+    <input type="date" name="data_inicio" placeholder="Data inicial da retirada do veículo">
+  </div>
+
+  <div class="form-control">
+    <label for="data_fim">Data final:</label>
+    <input type="date" name="data_fim" placeholder="Data final da entrega do veículo">
+  </div>
+  <input type="submit" value="Cadastrar">
+  </form>
+  
+
+
+

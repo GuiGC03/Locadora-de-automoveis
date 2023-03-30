@@ -1,0 +1,28 @@
+<h1>Cadastre o cliente:</h1>
+
+<form class="form" action="/clientes/updatecliente" method="POST">
+
+  <input type="hidden" name="id" value="{{cliente.id}}">
+
+  <div class="form-control">
+    <label for="nome">Nome do cliente:</label>
+    <input type="text" name="nome" placeholder="Nome completo do cliente" value="{{cliente.nome}}">
+  </div>
+
+  <div class="form-control">
+    <label for="endereco">Endereço:</label>
+    <input type="text" name="endereco" placeholder="Endereço completo do cliente" value="{{cliente.endereco}}">
+  </div>
+
+  <div class="form-control">
+    <label for="telefone">Número do telefone:</label>
+    <input type="text" name="telefone" placeholder="Telefone ou celular" value="{{cliente.telefone}}">
+  </div>
+
+  <div class="form-control">
+    <label for="email">Email:</label>
+    <input type="text" name="email" placeholder="Email de cadastro" value="{{cliente.email}}">
+  </div>
+
+  <input type="submit" value="Editar">
+</form>

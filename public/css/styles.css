@@ -1,0 +1,134 @@
+*{
+    font-family: Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+  
+#navbar {
+    border-bottom: 1px solid #ccc;
+    padding: 1em;
+    margin-bottom: 1em;
+}
+  
+#navbar ul {
+    display: flex;
+    list-style: none;
+}
+  
+#navbar ul li {
+    margin-left: 1em;
+}
+  
+h1 {
+    text-align: center;
+    margin-bottom: 1em;
+}
+  
+.form {
+    width: 450px;
+    margin: 0 auto;
+}
+  
+.form-control {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 0.5em;
+}
+  
+  .form-control label {
+    font-weight: bold;
+    margin-bottom: 0.3em;
+}
+  
+  .form-control input {
+    padding: 5px;
+}
+  
+  /* clientes */
+.clientes-container {
+    width: 450px;
+    margin: 0 auto;
+}
+  
+.clientes-container div {
+    border-bottom: 1px solid #ccc;
+    padding: 5px;
+    margin: 5px;
+}
+  
+.bold {
+    font-weight: bold;
+  }
+  
+  /* cliente */
+#cliente-page {
+    padding: 2em;
+}
+  
+#cliente-page .container {
+    text-align: center;
+}
+  
+.actions {
+    margin-top: 1em;
+}
+
+  /* veículos */
+
+.veiculos-container {
+    width: 450px;
+    margin: 0 auto;
+}
+  
+.veiculos-container div {
+    border-bottom: 1px solid #ccc;
+    padding: 5px;
+    margin: 5px;
+}
+  
+.bold {
+    font-weight: bold;
+  }
+  
+  /* veiculo */
+#veiculo-page {
+    padding: 2em;
+}
+  
+#veiculo-page .container {
+    text-align: center;
+}
+  
+.actions {
+    margin-top: 1em;
+}
+
+/* reservas */
+
+.reservas-container {
+    width: 450px;
+    margin: 0 auto;
+}
+  
+.reservas-container div {
+    border-bottom: 1px solid #ccc;
+    padding: 5px;
+    margin: 5px;
+}
+  
+.bold {
+    font-weight: bold;
+  }
+  
+  /* reserva */
+#reserva-page {
+    padding: 2em;
+}
+  
+#reserva-page .container {
+    text-align: center;
+}
+  
+.actions {
+    margin-top: 1em;
+}

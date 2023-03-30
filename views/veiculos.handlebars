@@ -1,0 +1,8 @@
+<h1>Lista de veículos:</h1>
+<div class="veiculos-container">
+  {{#each veiculos}}
+    <div>#{{this.id}} - <span class="bold"><a href="/veiculos/{{this.id}}">{{this.marca}}</a></span> - {{this.modelo}} - {{this.ano}} - {{this.placa}}- {{this.disponibilidade}} </div>
+  {{/each}}
+</div>
+
+
